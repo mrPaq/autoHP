@@ -1,0 +1,15 @@
+# PhidgetID, Serial, I/O, Type, Port (if output), Default Value, Comment, extra params
+Light1, Upper Veg, 344484, DO, DOut, 0, 0, Upper Veg Light
+Pump1, Upper Veg, 344484, DO, DOut, 1, 0, Upper veg pump
+Heater1, General, 344484, DO, DOut, 2, 0, General
+ExFan1, General, 344484, DO, DOut, 3, 0, General
+Light2, Lower Veg, 344484, DO, DOut, 4, 0, Lower Veg Light
+Pump2, Lower Veg, 344484, DO, DOut, 5, 0, Lower Veg Pump
+Light3, Flowering, 344484, DO, DOut, 6, 0, Flowering Light
+Pump3, Flowering, 344484, DO, DOut, 7, 0, Flowering Pump
+Temp1, General, 344484, AI, Temp, 0, 0, Temperature
+Humid1, General, 344484, AI, Humid, 1, 0, Humidity
+Cur1, General, 344484, AI, Cur25A, 2, 0, Current Sensor
+CO2, General, 344484, AI, CO2, 3, 0, CO2 Sensor
+Lux1, Lower Veg, 344484, AI, Lux70k, 4, 0, Lower veg Lux,0.02231,-0.3957
+Lux2, Flowering, 344484, AI, Lux70k, 5, 0, Flower Lux,0.02385,-0.56905

@@ -1,0 +1,19 @@
+# Time Examples
+# Type, SubType, relayID, Day(currently invalid), then...
+# if subtype=single: time, on/off
+# if subtype=onwindow: ontime, offtime
+# if subtype=repwindow: starttime, windowlength, minutes on, minutes off
+#
+# Sensor examples
+# Type, deviceID, logical, value, function, args
+#
+# run light1 16 hours starting at 8pm
+Time, onWindow, Light1, All, 18:00, 18h
+Time, repWindow, Pump1, All, 18:00, 18h, 3m, 3h
+Time, onWindow, Light2, All, 18:00, 18h
+Time, repWindow, Pump2, All, 18:00, 18h, 3m, 2h
+Time, onWindow, Light3, All, 19:00, 16h
+Time, repWindow, Pump3, All, 19:00, 16h, 3m, 90m
+#Time, repWindow, Heater1, All, 08:00, 18h, 15m, 15m
+Sensor, lt, Temp1, 19, Heater1, On
+Sensor, ge, Temp1, 20, Heater1, Off
