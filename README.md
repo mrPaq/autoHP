@@ -12,6 +12,7 @@ To that end, I'm working on building a very rudimentary CoAP extension for PHP b
 
 ###Requirements###
 (this is a work in progress - will need to reinstall from scratch to get this correct)
+
 -Linux on somthing with an available USB port (CentOS and Raspbian work)
 -Python 2.7.6
 -Flask
