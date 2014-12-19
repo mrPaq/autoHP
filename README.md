@@ -10,6 +10,14 @@ Currently, I have this running on a Raspberry Pi model B, which controls the phi
 **Problem:** in recording of data, and trying to stay with an IOT point of view, I would like to change the RESTful/Flask HTML system to a CoAP system.  This in turn means I need a CoAP-capable PHP interface, which it doesn't look like it exists.
 To that end, I'm working on building a very rudimentary CoAP extension for PHP based on Olaf Bergmann's libcoap and his simple client example (see http://sourceforge.net/projects/libcoap/).  Looks like this will take some time...
 
+###Requirements###
+(this is a work in progress - will need to reinstall from scratch to get this correct)
+-Linux on somthing with an available USB port (CentOS and Raspbian work)
+-Python 2.7.6
+-Flask
+If you want the web-interface then:
+-php 5.?
+
 Startup by adding the following to /etc/rc.local
 ```
 # test for restart events...
