@@ -1,6 +1,8 @@
-autoHP - Automation system to control lights, fans, and pumps for a hydroponic garden.
+#autoHP
+##Automation system to control lights, fans, and pumps for a hydroponic garden.
 
-Purpose - Control lights and pumps by timing events, and fans by sensor events.
+##Purpose
+###Control lights and pumps by timing events, and fans by sensor events.
 
 Made to run on Linux, and control a Phidget 8/8/8 interface kit (see http://phidgets.com).  This is python-based, but has a RESTful interface by incorporating a Flask server (http://flask.pocoo.org/) accessed by a php-based web interface.  This allows for a rudimentary view of current status and provides relay override control.
 
@@ -11,9 +13,12 @@ Problem: in recording of data, and trying to stay with an IOT point of view, I w
 To that end, I'm working on building a very rudimentary CoAP extension for PHP based on Olaf Bergmann's libcoap and the simple client example (see http://sourceforge.net/projects/libcoap/).  Looks like this will take some time...
 
 Startup by adding the following to /etc/rc.local
+```
 # test for restart events...
 touch /tmp/autoHP.rebootA
 # Start event system...
 /root/autoHP/autoHP.py >> /var/log/autoHP.log 2>&1 &
+```
+
 
 
