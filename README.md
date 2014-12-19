@@ -11,7 +11,7 @@ Currently, I have this running on a Raspberry Pi model B, which controls the phi
 To that end, I'm working on building a very rudimentary CoAP extension for PHP based on Olaf Bergmann's libcoap and his simple client example (see http://sourceforge.net/projects/libcoap/).  Looks like this will take some time...
 
 ###Requirements###
-(this is a work in progress - will need to reinstall fro
+(this is a work in progress - will need to reinstall from scratch to get proper requirements)
 - Linux on somthing with an available USB port (CentOS and Raspbian work)
 - Python 2.7.6
 - Flask
