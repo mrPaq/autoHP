@@ -14,6 +14,6 @@ Startup by adding the following to /etc/rc.local
 # test for restart events...
 touch /tmp/hydro.rebootA
 # Start event system...
-/root/hydro/hydroEvents.py >> /var/log/autoHP.log 2>&1 &
+/root/autoHP/autoHP.py >> /var/log/autoHP.log 2>&1 &
 
 
