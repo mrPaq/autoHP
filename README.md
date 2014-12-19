@@ -11,13 +11,14 @@ Currently, I have this running on a Raspberry Pi model B, which controls the phi
 To that end, I'm working on building a very rudimentary CoAP extension for PHP based on Olaf Bergmann's libcoap and his simple client example (see http://sourceforge.net/projects/libcoap/).  Looks like this will take some time...
 
 ###Requirements###
-(this is a work in progress - will need to reinstall from scratch to get this correct)
+(this is a work in progress - will need to reinstall fro
+- Linux on somthing with an available USB port (CentOS and Raspbian work)
+- Python 2.7.6
+- Flask
 
--Linux on somthing with an available USB port (CentOS and Raspbian work)
--Python 2.7.6
--Flask
 If you want the web-interface then:
--php 5.?
+- Webserver (assume apache2+)
+- php 5.?
 
 Startup by adding the following to /etc/rc.local
 ```
@@ -29,7 +30,4 @@ touch /tmp/autoHP.rebootA
 
 I'm assuming the program is run from folder /root/autoHP/ (I know, not a good idea, but I'll work on an install script to proper locations soon).
 Currently assumes the .dat files are in /etc/autoHP/
-
-
-
 
