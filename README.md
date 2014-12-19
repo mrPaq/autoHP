@@ -12,7 +12,7 @@ To that end, I'm working on building a very rudimentary CoAP extension for PHP b
 
 Startup by adding the following to /etc/rc.local
 # test for restart events...
-touch /tmp/hydro.rebootA
+touch /tmp/autoHP.rebootA
 # Start event system...
 /root/autoHP/autoHP.py >> /var/log/autoHP.log 2>&1 &
 
