@@ -17,5 +17,9 @@ touch /tmp/autoHP.rebootA
 /root/autoHP/autoHP.py >> /var/log/autoHP.log 2>&1 &
 ```
 
+I'm assuming the program is run from folder /root/autoHP/ (I know, not a good idea, but I'll work on an install script to proper locations soon).
+Currently assumes the .dat files are in /etc/autoHP/
+
+
 
 
