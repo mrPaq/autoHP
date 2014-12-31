@@ -1,4 +1,4 @@
-# PhidgetID, Serial, I/O, Type, Port (if output), Default Value, Comment, extra params
+# deviceID, zoneID, Serial#, Type, Type detail, Port , Default Value, Comment, extra params
 Light1, Upper Veg, 344484, DO, DOut, 0, 0, Upper Veg Light
 Pump1, Upper Veg, 344484, DO, DOut, 1, 0, Upper veg pump
 Heater1, General, 344484, DO, DOut, 2, 0, General

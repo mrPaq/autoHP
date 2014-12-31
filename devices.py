@@ -252,6 +252,7 @@ class Relay(Device):
     def set_state(self,inValue):
         if self.interfaceKit.isAttached():
             self.lastState = inValue
+            '''Note we use -not- as the sainsmart board seems inverted'''
             self.interfaceKit.setOutputState(int(self.port),not inValue)
 
 class Zone:
