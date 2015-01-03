@@ -1,0 +1,10 @@
+section
+{
+  float: left;
+  border-style:solid;
+}
+
+br
+{
+  clear: both;
+}
