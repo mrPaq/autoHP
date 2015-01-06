@@ -5,6 +5,8 @@ Made to run on Linux, and control a Phidget 8/8/8 interface kit (see http://phid
 
 Currently, I have this running on a Raspberry Pi model B, which controls the phidget via USB, which in turn reads sensor data from the analog inputs, and controls a Sainsmart 8 channel relay board via the 5v digital outputs.  The end result is a bank of 8 independantly controlled 120v sockets.
 
+Sorry for any missing bits of information - This documentation is a work in progress (and so is the program).
+
 **See Wiki for more detailed information**
 
 **Next:** need to add recording of sensor data & relay status to a database.
